@@ -1,0 +1,29 @@
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  position:sticky;
+  box-sizing: border-box; /* Asegura que el padding no aumente el ancho total */
+}
+
+.footer nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer nav ul li a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer nav ul li a:hover {
+  color: white;
+}

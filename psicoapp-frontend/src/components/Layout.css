@@ -1,0 +1,25 @@
+.layout-container {
+    display: flex;
+    margin-top: 60px; /* Altura del Header */
+  }
+  
+  .main-content {
+    margin-left: 250px; /* Ancho del Sidebar */
+    padding: 20px;
+    width: calc(100% - 250px); /* Resto del ancho */
+    box-sizing: border-box;
+    min-height: calc(100vh - 60px - 40px); /* Altura total menos Header y Footer */
+  }  
+
+  footer {
+    height: 40px; /* Altura del Footer */
+    background-color: #5b9bd5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     /* No lo fija, pero asegura que esté bajo contenido */
+    bottom: 0;
+    width: 100%;
+  }
